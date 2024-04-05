@@ -46,7 +46,7 @@ exports.createUserValidator = [
 
   check('phone')
     .optional()
-    .isMobilePhone('ar-TU')
+    .isMobilePhone('ar-TN')
     .withMessage('Invalid phone number '),
 
   check('profileImg').optional(),
@@ -82,7 +82,7 @@ exports.updateUserValidator = [
     ),
   check('phone')
     .optional()
-    .isMobilePhone('ar-TU')
+    .isMobilePhone('ar-TN')
     .withMessage('Invalid phone number '),
 
   check('profileImg').optional(),
@@ -150,7 +150,7 @@ exports.updateLoggedUserValidator = [
     ),
   check('phone')
     .optional()
-    .isMobilePhone('ar-TU')
+    .isMobilePhone('ar-TN')
     .withMessage('Invalid phone number '),
 
   validatorMiddleware,
